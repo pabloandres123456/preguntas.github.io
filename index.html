@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    
+
+    <div class="alert alert-primary  w-50" role="alert">
+
+        <form action= "" autocomplete="off"  id="task-form" >
+            <input type="text"  id="task-title" class="form-control  mb-2 text-bg-light    " placeholder="Nombre estudiante"  >
+            <input type="submit" class="form-control text-bg-light "  >
+        </form>
+    </div>
+
+      <script type="module">
+        import { db } from './datos.js';
+    
+        // Ahora puedes usar la variable db para interactuar con Firestore
+        console.log(db); // Muestra la instancia de Firestore en la consola
+    </script>
+
+    
+    
+</body>
+</html>
